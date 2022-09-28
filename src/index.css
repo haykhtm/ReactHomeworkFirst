@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Card{
+  height: 400px;
+  width:300px;
+  
+  
+  
+}
+.App{
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr ;
+  
+  gap: 50px;
+  position:absolute;
+}
+
+.img{
+  width: 300px;
+ height: 370px;
+}
+.Card{
+ position: relative;
+ 
+ 
+}
+.divButton{
+  width: 300px;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  
+}
+.button{
+  width: 40%;
+  height: 30px;
+  background-color: rgb(228, 234, 234);
+}
+.span{
+ font-size: 1.5rem;
+ font-weight: bolder;
+ font-family: 'Brush Script MT', cursive;
+}
+
+.secretDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width:300px;
+  border: black 1px solid;
+}
+.secretButton{
+  height: 2rem;
+ width: 10rem;
+}
+
+@keyframes reverse {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  30% {
+    top: 50px;
+  }
+ 
+  72% {
+    left: 50px;
+  }
+  100% {
+    top: 100px;
+    left: 100%;
+  }
+}
+.cardReverse{
+  animation: reverse 5s ;
+  -webkit-animation: reverse 5s ;
+}
