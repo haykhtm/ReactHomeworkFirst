@@ -2,6 +2,12 @@ import { Component } from "react";
 import "./App.css";
 import Cards from "./Components/Cards";
 import Counter from "./Components/Counter/index"
+
+// let countryNames=flagdata.map((el)=>{
+//   return el.country
+// })
+
+
 let data = [
   {
     id: 1,
@@ -32,17 +38,38 @@ let data = [
   },
 ];
 
+
+
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        {data.map((el) => {
-          return <Cards key={el.id} el={el} />;
-        })}
-        <div className="Counter"> <Counter/ ></div>
+    constructor() {
+      super()
+     
     
+    }
+
+  
+
+ 
+  
+  render() {
+ 
+    return (
+      // <div className="App">
+      //   {data.map((el) => {
+      //     return <Cards key={el.id} el={el} />;
+      //   })}
+      //   <div className="Counter"> <Counter /></div>
+
+      // </div>
+
+      <div >
+      
+
       </div>
-    );
+
+
+
+    )
   }
 }
 

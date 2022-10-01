@@ -89,3 +89,28 @@ code {
   animation: reverse 5s ;
   -webkit-animation: reverse 5s ;
 }
+.FlagsGeneral{
+  display: grid;
+  justify-content: center;
+    align-content: center;
+    align-items: center;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr ;
+  gap: 20px;
+  grid-auto-flow: row;
+}
+.FlgasInput{
+  height: 30px;
+  width: 40%;
+}
+.FlagsButton{
+ 
+  height: 38px;
+  width: 20%;
+  min-width: 150px;
+}
+.SearchAndButton{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -21,7 +21,7 @@ class Cards extends Component {
       count: this.state.count + 1,
     });
   };
-  
+
 
   render() {
     const {
